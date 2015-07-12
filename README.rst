@@ -21,7 +21,6 @@ with a tighter probability of false positives and a larger number of hash
 functions.
 
 .. code-block:: python
-
     >>> from pybloom import BloomFilter
     >>> f = BloomFilter(capacity=1000, error_rate=0.001)
     >>> [f.add(x) for x in range(10)]
@@ -50,3 +49,13 @@ functions.
     # len(sbf) may not equal the entire input length. 0.01% error is well
     # below the default 0.1% error threshold. As the capacity goes up, the
     # error will approach 0.1%.
+
+Related Links/repos:
+
+[1] https://github.com/RyanLiu1900/pybloom 
+
+[2] https://github.com/kylej/pyBloom 
+
+[3] https://github.com/tumist/pybloomfilterjs 
+
+[4] http://www.stavros.io/posts/bloom-filter-search-engine/
