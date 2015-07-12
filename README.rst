@@ -60,3 +60,5 @@ Related Links/repos:
 [3] https://github.com/tumist/pybloomfilterjs 
 
 [4] http://www.stavros.io/posts/bloom-filter-search-engine/
+
+[5] http://www.perl.com/pub/2004/04/08/bloom_filters.html
